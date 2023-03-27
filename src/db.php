@@ -1,7 +1,8 @@
 <?php
 $dbhost = 'localhost:3307';
-$dbuser = 'Arif';
-$dbpass = '123456';
+// Fill with your credentials
+$dbuser = '';
+$dbpass = '';
 $database = 'MOVIES';
 
 $db = mysqli_connect($dbhost,$dbuser,$dbpass,$database);
